@@ -3,7 +3,16 @@ import React, { Component } from 'react';
 import './css/home.css';
 // 引入样式
 import { Menu, Dropdown, Icon, message } from 'antd';
+// 引入登录
+import Logon from '../logon/home';
 export default class Index extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      close: false
+    };
+  }
+
   render() {
     const onClick = ({ key }) => {
       message.info(`Click on item ${key}`);
@@ -11,19 +20,19 @@ export default class Index extends Component {
     const menu = (
       <Menu onClick={onClick}>
         <Menu.Item key="1">
-          <a href="www.baidu.com">AE软件</a>
+          <a href="###">vue基础</a>
         </Menu.Item>
         <Menu.Item key="2">
-          <a href="www.baidu.com">AE插件</a>
+          <a href="###">Es6</a>
         </Menu.Item>
         <Menu.Item key="3">
-          <a href="www.baidu.com">AE脚本</a>
+          <a href="###">AE脚本</a>
         </Menu.Item>
         <Menu.Item key="4">
-          <a href="www.baidu.com">AE教程</a>
+          <a href="###">AE教程</a>
         </Menu.Item>
         <Menu.Item key="5">
-          <a href="www.baidu.com">AE模块</a>
+          <a href="###">AE模块</a>
         </Menu.Item>
       </Menu>
     );
@@ -38,11 +47,7 @@ export default class Index extends Component {
           />
           <ul className="header-ul">
             <li style={{ borderBottom: '#ff6651 solid 1px' }}>
-              <a
-                href="www.baidu.com"
-                className="header-a"
-                style={{ color: '#ff6651' }}
-              >
+              <a href="###" className="header-a" style={{ color: '#ff6651' }}>
                 首页
               </a>
             </li>
@@ -53,27 +58,30 @@ export default class Index extends Component {
                   href="#"
                   className="header-li-a"
                 >
-                  AE资源
+                  VUE
                   <Icon type="down" />
                 </a>
               </Dropdown>
             </li>
             <li>
-              <a
-                href="www.baidu.com"
-                className="header-a header-li-a"
-                style={{ fontSize: '15px' }}
-              >
-                FCPX资源
+              <Dropdown overlay={menu}>
+                <a
+                  className="ant-dropdown-link"
+                  href="#"
+                  className="header-li-a"
+                >
+                  React
+                  <Icon type="down" />
+                </a>
+              </Dropdown>
+            </li>
+            <li>
+              <a href="###" className="header-a">
+                ES6
               </a>
             </li>
             <li>
-              <a href="www.baidu.com" className="header-a">
-                PR模块
-              </a>
-            </li>
-            <li>
-              <a href="www.baidu.com" className="header-a">
+              <a href="###" className="header-a">
                 Mac专区
               </a>
             </li>
@@ -94,16 +102,18 @@ export default class Index extends Component {
               </Dropdown>
             </li>
             <li>
-              <a href="www.baidu.com" className="header-a">
+              <a href="###" className="header-a">
                 精品资源
               </a>
             </li>
             <li>
-              <a href="www.baidu.com" className="header-a">
+              <a href="###" className="header-a">
                 商城
               </a>
             </li>
           </ul>
+          {/*登录*/}
+          <Logon></Logon>
         </div>
       </div>
     );

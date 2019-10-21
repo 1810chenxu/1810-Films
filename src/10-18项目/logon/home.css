@@ -1,0 +1,286 @@
+.waibox {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #313b43;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 999999999999999999999999999999999999999;
+}
+
+.bigbox {
+  background-color: #ffffff;
+  width: 400px !important;
+  height: 460px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  margin: auto;
+  border-radius: 3px;
+  max-width: 1280px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sign-in {
+  width: 310px;
+  height: 292px;
+  padding: 50px 30px 20px;
+  margin: 0 auto;
+}
+.sing-innone {
+  width: 310px;
+  height: 292px;
+  padding: 50px 30px 20px;
+  margin: 0 auto;
+  display: none;
+}
+
+.div-loginin {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.div-loginin input {
+  border-radius: 0px;
+  padding: 0 0 0 20px;
+  width: 100%;
+  background: #e6eaed;
+  border: none;
+  min-height: 40px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+}
+
+.div-submit {
+  border-bottom: 1px solid #eaeaea;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.div-submit input {
+  width: 100%;
+  padding: 10px 25px;
+  background: #ff5f33;
+  color: #fff;
+  border: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font: inherit;
+  margin: 0;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+}
+
+.div-trans {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+  box-sizing: border-box;
+  font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.div-trans span {
+  color: #1d1d1d;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.div-social {
+  width: 310px;
+  height: 75px;
+  margin: 20px auto 0;
+  overflow: hidden;
+  font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.div-social h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.login-qq {
+  background-color: #3f92d6;
+  margin-right: 2%;
+  float: left;
+  margin-bottom: 3px;
+  padding: 5px;
+  opacity: 0.85;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  width: 28%;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.login-qq i {
+  margin-left: 10px;
+  float: left;
+  width: 15px;
+  height: 15px;
+  display: block;
+  font-size: 15px !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background: url('./img/TIM截图20191020190959.png') no-repeat 100% 100%;
+}
+
+.login-weibo {
+  background-color: #ff766c;
+  margin-right: 2%;
+  float: left;
+  margin-bottom: 3px;
+  padding: 5px;
+  opacity: 0.85;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  width: 28%;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.login-weibo i {
+  margin-left: 10px;
+  float: left;
+  width: 15px;
+  height: 15px;
+  display: block;
+  font-size: 15px !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background: url('./img/TIM截图20191020191035.png') no-repeat 100% 100%;
+}
+
+.login-weixin {
+  background-color: #40c34a;
+  float: left;
+  margin-bottom: 3px;
+  padding: 5px;
+  opacity: 0.85;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  width: 28%;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.login-weixin i {
+  margin-left: 10px;
+  float: left;
+  width: 15px;
+  height: 15px;
+  display: block;
+  font-size: 15px !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background: url('./img/TIM截图20191020191109.png') no-repeat 100% 100%;
+}
+
+.sign-up {
+  width: 310px;
+  height: 393px;
+  padding: 50px 30px 20px 30px;
+  margin: 0 auto;
+  display: none;
+}
+
+.sign-upblock {
+  width: 310px;
+  height: 393px;
+  padding: 50px 30px 20px 30px;
+  margin: 0 auto;
+}
+
+.div-logup {
+  height: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.div-logup input {
+  border-radius: 0px;
+  padding: 0 0 0 20px;
+  width: 100%;
+  background: #e6eaed;
+  border: none;
+  min-height: 40px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+}
+
+.div-logup span {
+  border: 1px solid #505050;
+  background: #505050;
+  text-align: center;
+  padding: 10px 15px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  float: left;
+}
+
+.con-right {
+  width: 90px;
+  height: 35px;
+  color: #555;
+  text-align: center;
+  line-height: 30px;
+  background: rgb(221, 221, 221);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 22px;
+  right: 30px;
+}
+
+.con-right:hover {
+  color: #ff6651;
+}

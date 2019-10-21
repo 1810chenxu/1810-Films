@@ -1,0 +1,21 @@
+.content-gsh-04{
+	width: 1200px;
+	height: 740px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.constent-paging{
+	margin: auto;
+	margin-left: 485px;
+}
+.content-pages a{
+	display: block;
+	width: 223px;
+	display: flex;
+}
+.content-pages {
+	display: flex;
+}

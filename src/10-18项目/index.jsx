@@ -6,6 +6,8 @@ import Home from './home/index';
 import Footer from './footer';
 // 引入轮播图文件
 import Slide from './slide';
+// 引入主题内容
+import Content from './content/index';
 export default class Index extends Component {
   render() {
     return (
@@ -14,6 +16,8 @@ export default class Index extends Component {
         <Home />
         {/* 轮播图 */}
         <Slide />
+        {/*主体内容*/}
+        <Content />
         {/* 底部 */}
         <Footer />
       </div>
