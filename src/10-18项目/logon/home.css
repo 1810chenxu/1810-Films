@@ -1,12 +1,39 @@
 .waibox {
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 1000%;
+  padding-top: 8%;
   top: 0;
-  left: 0;
+  left: -10%;
   background-color: #313b43;
   opacity: 0.9;
   position: absolute;
-  z-index: 999999999999999999999999999999999999999;
+  z-index: 9999999999999999999999;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  float: right;
+}
+
+.close :hover {
+  border-radius: 20px;
+  color: red;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.close span {
+  display: block;
+  margin-top: -2px;
+  margin-left: 6px;
 }
 
 .bigbox {
@@ -114,9 +141,10 @@
 }
 
 .div-social {
-  width: 310px;
+  width: 330px;
   height: 75px;
   margin: 20px auto 0;
+  margin-left: -10px;
   overflow: hidden;
   font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

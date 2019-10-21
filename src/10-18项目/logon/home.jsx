@@ -30,12 +30,15 @@ export default class Index extends React.Component {
         <button className="con-right" onClick={this.close}>
           登录/注册
         </button>
+        <div>
         <div
           className="waibox"
-          onClick={this.close}
           style={this.state.close ? { display: 'block' } : { display: 'none' }}
         >
           <div className="bigbox">
+            <div className="close" onClick={this.close}>
+              <span>X</span>
+            </div>
             <form className={this.state.is ? 'sign-in' : 'sing-innone'}>
               <div className="div-loginin">
                 <input type="text" placeholder="用户名" />
@@ -96,7 +99,7 @@ export default class Index extends React.Component {
                 <input
                   type="text"
                   placeholder="验证码"
-                  style={{ width: '187px', float: 'left' }}
+                  style={{ width: '125px', float: 'left' }}
                 />
                 <span>获取邮箱验证码</span>
               </div>
@@ -139,6 +142,7 @@ export default class Index extends React.Component {
               </div>
             </form>
           </div>
+        </div>
         </div>
       </React.Fragment>
     );
